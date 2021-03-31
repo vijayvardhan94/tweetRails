@@ -13,6 +13,10 @@
   </head>
 
   <body>
+  <!-- rendering a view from another file-->
+  <%= render partial: "shared/navbar" %>
+  <div class = "container">
     <%= yield %>
+  </div>
   </body>
 </html>
